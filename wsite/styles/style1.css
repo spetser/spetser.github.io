@@ -1,0 +1,44 @@
+﻿html { /* we style the total html file and add changes where we want  */
+font-size: 12px;
+font-family: courier new;
+background-color: #e6ffee;
+}
+body {
+width: 500px;
+margin: 0 auto;
+padding: 0 20px 20px 20px;
+background-color: white;
+border: 2px solid orange;
+}
+img {
+display: block; /* because image is standard an inline element and we want to apply margin and border */
+width: 100% ;/* image is 1920 X 1080 so way too big hence we reduce */
+margin: 0 auto;
+}
+h1 {
+font-size: 30px;
+text-align: center;
+margin: 0;
+color: white;
+text-shadow: 0 0 10px orange, 0 0 20px orange, 0 0 30px orange, 0 0 40px orange, 0 0 70px orange, 0 0 80px orange, 0 0 100px orange, 0 0 150px orange, 0 0 200px orange,0 0 300px orange,0 0 400px orange,0 0 500px orange;
+}
+h2 {
+font-size: 23px;
+text-align: center;
+}
+p {
+font-size: 18px;
+line-height: 120%;
+letter-spacing: 1px;
+}
+table {
+font-size: 16px;
+table-layout: fixed; /* column of table will take width of first row which we specify in td  */
+width: 100%;
+border-collapse: collapse;
+}
+td {
+width: 50%;
+text-align: left;
+border: 2px solid orange;
+}
